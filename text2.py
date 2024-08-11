@@ -16,9 +16,9 @@ from deepgram import (
 
 load_dotenv()
 
-AUDIO_FILE = "RES0213.mp3"
+AUDIO_FILE = "RES0206.mp3"
 
-def transcript(file_path):
+def transcribe_audio(file_path):
     try:
         # STEP 1 Create a Deepgram client using the API key in the environment variables
         config: DeepgramClientOptions = DeepgramClientOptions(
@@ -29,7 +29,7 @@ def transcript(file_path):
         # deepgram: DeepgramClient = DeepgramClient()
 
         # STEP 2 Call the transcribe_file method on the rest class
-        with open(AUDIO_FILE, "rb") as file:
+        with open(file_path, "rb") as file:
             buffer_data = file.read()
 
         payload: FileSource = {
