@@ -1,12 +1,10 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-from langchain_groq import ChatGroq
 import os
 import re
 
-# os.environ['GROQ_API_KEY'] = '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'
-# llm = ChatGroq(name = "llama3-70b-8192")
+
 # Google API key
 os.environ["GOOGLE_API_KEY"] = "AIzaSyAZSP3AXxW8vmcalgAYmikudzSqT_IgWQk"
 
