@@ -37,12 +37,10 @@ Ensure you have Python 3.8 or above installed.
 
 ### Running the Application
 
-1. Run the Streamlit application:
+1. Run the application:
     ```bash
-    streamlit run app.py
+    python SymptomSuggestion.py
     ```
-
-2. Access the application in your web browser at `http://localhost:8501`.
 
 ### Usage
 
