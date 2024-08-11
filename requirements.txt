@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+scikit-learn
+nltk
+beautifulsoup4
+requests
+langchain
+langchain-google-genai
+deepgram-sdk
