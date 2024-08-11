@@ -8,3 +8,4 @@ requests
 langchain
 langchain-google-genai
 deepgram-sdk
+python-dotenv
