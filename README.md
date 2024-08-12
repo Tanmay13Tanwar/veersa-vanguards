@@ -37,9 +37,11 @@ Ensure you have Python 3.8 or above installed.
 
 ### Running the Application
 
-1. Run the application:
+### Running the Application
+
+1. Run the Streamlit application:
     ```bash
-    python SymptomSuggestion.py
+    streamlit run app4.py
     ```
 
 ### Usage
@@ -86,4 +88,4 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ### Contact
 
-For questions or suggestions, feel free to reach out to [tanmay13tanwar@gmail.com](mailto:tanmay13tanwar@gmail.com).
+For questions or suggestions, feel free to reach out to [tanmay13tanwar@gmail.com,aryanmudgal03@gmail.com](mailto:tanmay13tanwar@gmail.com).
